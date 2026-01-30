@@ -1,1 +1,25 @@
 /* место для вашего кода */
+.header-menu-link:not(:first-child)::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background: url("../images/list_marker.png") no-repeat center;
+  background-size: contain;
+  margin: 0 12px;
+  display: inline-block;
+}
+
+.cover {
+  background-image: url("../images/cover.jpg");
+}
+
+.lots-movie {
+  background-image: url("../images/card-lot-01.jpg");
+}
+.lots-book {
+  background-image: url("../images/card-lot-02.jpg");
+}
+
+.lots-painting {
+  background-image: url("../images/card-lot-03.jpg");
+}
