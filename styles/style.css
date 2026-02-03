@@ -10,8 +10,8 @@ li {
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   padding: 0 50px;
-  font: 18px "Raleway", sans-serif;
-  height: 293px;
+  font-size: 18px;
+  min-height: 293px;
 }
 
 .header__links-list {
@@ -32,7 +32,7 @@ li {
 }
 
 .header__logo {
-  min-width: 135px;
+  width: 135px;
 }
 
 .address {
@@ -68,7 +68,9 @@ li {
 .cover__title {
   position: relative;
   z-index: 2;
-  font: bold 100px/1.15 "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 1.15;
 }
 
 .aligned-text {
@@ -119,17 +121,17 @@ li {
 
 .bet-button {
   width: 256px;
-  height: 51px;
+  min-height: 51px;
   background: transparent;
   border: 1px solid #ffffff;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-  font: 22px "Raleway", sans-serif;
+  font-size: 22px;
   text-transform: uppercase;
   color: #ffffff;
 }
 
 .lots {
-  margin: 180px 24px 120px;
+  padding: 180px 24px 120px;
 }
 
 .lots__card-list {
@@ -154,7 +156,7 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 334px;
+  max-width: 334px;
   min-height: 596px;
   position: relative;
   padding: 48px 40px;
@@ -171,13 +173,13 @@ li {
   z-index: 2;
   text-decoration: underline;
   text-transform: uppercase;
-  font: bold 22px "Raleway", sans-serif;
+  font-size: 22px;
 }
 
 .card__text {
   position: relative;
   z-index: 2;
-  font: 20px "Raleway", sans-serif;
+  font-size: 20px;
   line-height: 1.2;
 }
 
@@ -208,8 +210,8 @@ li {
 .about__logo {
   background-color: rgba(0, 0, 0, 100%);
   border-radius: 50%;
-  width: 240px;
-  height: 240px;
+  max-width: 240px;
+  min-height: 240px;
   display: flex;
   align-items: center;
   padding: 64px 45px;
@@ -220,7 +222,7 @@ li {
 .about__column-wide {
   display: flex;
   flex-direction: column;
-  width: 693px;
+  max-width: 693px;
   margin-top: 133px;
   margin-left: 47px;
 }
@@ -238,7 +240,7 @@ li {
   gap: 24px;
   font-size: 20px;
   font-weight: normal;
-  line-height: 24px;
+  line-height: 1.2;
 }
 
 .footer {
@@ -252,11 +254,12 @@ li {
 }
 
 .footer__address {
-  width: 265px;
+  max-width: 265px;
 }
 
 .footer__menu-list-item {
   justify-self: center;
+  line-height: 23px;
 }
 
 .footer__menu-link_active {
@@ -270,5 +273,5 @@ li {
 }
 
 .footer__social-list-item {
-  width: 48px;
+  max-width: 48px;
 }
