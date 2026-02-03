@@ -9,7 +9,6 @@ li {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-/*  justify-content: center;*/
   padding: 0 50px;
   font: 18px "Raleway", sans-serif;
   height: 293px;
@@ -17,8 +16,6 @@ li {
 
 .header__links-list {
   display: flex;
-/*  padding: 0;
-  margin: 0;*/
   gap: 33px;
 }
 
@@ -44,7 +41,6 @@ li {
 }
 
 .header__address {
-/*  align-items: flex-start;*/
   max-width: 240px;
   justify-self: end;
   padding-right: 35px;
@@ -52,10 +48,8 @@ li {
 
 .cover {
   position: relative;
-/*  box-sizing: border-box;*/
   max-width: 1100px;
   min-height: 757px;
-/*  margin: 0 auto;*/
   padding: 50px;
   background-image: url("../images/cover.jpg");
   background-size: cover;
@@ -74,21 +68,17 @@ li {
 .cover__title {
   position: relative;
   z-index: 2;
-/*  margin: 0;*/
   font: bold 100px/1.15 "Raleway", sans-serif;
-/*  text-transform: uppercase;*/
 }
 
 .aligned-text {
   position: absolute;
-/*  display: block;*/
   white-space: nowrap;
   letter-spacing: 0.3em;
 }
 
 .aligned-text_left {
   top: 115px;
-/*  left: 0;*/
 }
 
 .aligned-text_center {
@@ -107,7 +97,6 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-/*  gap: 20px;*/
   position: absolute;
   z-index: 2;
   left: 50px;
@@ -116,10 +105,8 @@ li {
 }
 
 .cover__description-text {
-/*  margin: 0;*/
   text-transform: uppercase;
   font-size: 22px;
-/*  font-weight: normal;*/
 }
 
 .letter-spacing-extended {
@@ -143,9 +130,6 @@ li {
 
 .lots {
   margin: 180px 24px 120px;
-/*  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;*/
 }
 
 .lots__card-list {
@@ -181,10 +165,6 @@ li {
 .card-link {
   text-decoration: none;
 }
-
-/*.lots__card-list-item:first-child {
-  margin-left: 0;
-}*/
 
 .card__title {
   position: relative;
@@ -232,7 +212,6 @@ li {
   height: 240px;
   display: flex;
   align-items: center;
-/*  justify-content: center;*/
   padding: 64px 45px;
   margin-top: 35px;
   margin-left: 71px;
@@ -241,8 +220,6 @@ li {
 .about__column-wide {
   display: flex;
   flex-direction: column;
-/*  align-items: flex-start;
-  min-height: 449px; */
   width: 693px;
   margin-top: 133px;
   margin-left: 47px;
@@ -288,7 +265,6 @@ li {
 
 .footer__social-list {
   display: flex;
-/*  align-items: flex-start; */
   padding-left: 95px;
   gap: 48px;
 }
